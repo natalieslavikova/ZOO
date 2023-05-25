@@ -3,9 +3,8 @@ backend:
   branch: main
 media_folder: "images/uploads"
 slug:
-  encoding: 
-collections: "ascii"
-clean_accents: true
+  encoding: "ascii"
+  clean_accents: true
   - name: "blog" # Jaká bude cesta ke kolekci v administraci,např. /admin/collections/novinky
     label: "Blog" # Jak se kolekce jmenuje v UI administrace
     folder: "blog" # Ve které složce jsou stránky/příspěvky uložené v Eleventy
